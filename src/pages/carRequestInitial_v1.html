@@ -1,0 +1,50 @@
+---
+subject: Solicitud de carro a TodosEn4
+---
+
+<!-- Including header -->
+{{> headerTe4 }}
+<!-- ./Including header -->
+
+<container>
+
+  <spacer size="20"></spacer>
+
+  <row>
+    <columns small="12">
+      <!-- Main message -->
+      <h1>Hola, {!! $name !!}</h1>
+
+      <spacer size="20"></spacer>
+
+      <p class="">
+        Nos encontramos verificando la disponibilidad del vehículo que solicitaste o de otros similares para brindarte varias alternativas. Dentro de las próximas <span class="orange-text">{!! $number_of_hours_to_conta_with_you !!} horas</span> te contactaremos para ayudarte a realizar la reserva de tu alquiler.
+      </p>
+    </columns>
+</row>
+
+  <spacer size="15"></spacer>
+
+  <row>
+    <columns small="12">
+      <p class="">
+        Si tu alquiler es dentro de las próximas 24 horas, por favor comunicate con nosotros al {!! $todosen4_main_phone !!} para darle prioridad a tu servicio y confirmar un vehículo lo antes posible.
+      </p>
+    </columns>
+</row>
+
+  <spacer size="15"></spacer>
+
+  <row>
+    <columns small="12">
+      <p class="">
+        <b>IMPORTANTE:</b> debes tener los datos de tu perfil de TodosEn4 completos para poder realizar la reserva de tu alquiler, por lo que, mientras verificamos la disponibilidad de los vehículos, si aun no los has completado por favor finaliza tu registro: <a href="{!! $link_to_complete_user_profile !!}" class="blue-text">Completar mi perfil</a>
+      </p>
+    </columns>
+</row>
+
+</container>
+
+<!-- Including footer -->
+{{> footerTe4}}
+<!-- ./Including footer -->

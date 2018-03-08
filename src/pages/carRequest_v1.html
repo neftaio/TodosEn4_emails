@@ -1,0 +1,74 @@
+---
+subject: Solicitud de carro a TodosEn4
+---
+
+
+
+<!-- Including header -->
+{{> headerTe4 }}
+<!-- ./Including header -->
+
+<!-- Main content -->
+<container class="car-request-container">
+  <spacer size="40"></spacer>
+  <row>
+    <columns small="12" large="12">
+      <p class="bold text-center car-request-title">Gracias por usar <a class="blue-text bold" href="https://todosen4.com">TodosEn4</a>, tu solicitud de vehículo ha sido enviada <span class="orange-text">EXITOSAMENTE</span>, en las próximas <span class="orange-text">{!! $numero_de_horas_para_confirmar_alquiler !!} horas</span> te estaremos contactando para confirmar tu alquiler.</p>
+    </columns>
+  </row>
+  <spacer size="20"></spacer>
+
+  <row>
+    <columns small="12" large="12">
+      <h5>Datos de la solicitud:</h5>
+      <ul class="menu-list">
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Carro:</span> {!! $descripcion_el_carro !!}</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Fecha inicial:</span> {!! $fecha_inicial_alquiler !!}</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Fecha final:</span> {!! $fecha_final_alquiler !!}</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Precio del alquiler:</span> ${!! $precio_del_alquiler !!} COP</li>
+      </ul>
+    </columns>
+  </row>
+
+  <row>
+    <columns small="12" large="12">
+      <h5>Requisitos para el alquiler:</h5>
+          <ul class="menu-list">
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">1.</span> Cédula de Ciudadanía, Extranjería o Pasaporte (cualquiera de los 3).</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">2.</span> Licencia de conducción vigente (nacional o extranjera).</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">3.</span> Tarjeta de crédito Visa, Master Cards, American Express o Diners Club (para depósito de garantía) con cupo disponible de {!! $precio_deposito!!}</li>
+      </ul>
+    </columns>
+  </row>
+
+  <!-- <spacer size="5"></spacer> -->
+
+  <row>
+    <columns small="12" large="12">
+      <h5>Condiciones del alquiler:</h5>
+    <ul class="menu-list">
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Kilomentraje máximo por día:</span> {!! $kilomentraje_diario !!} Km</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Valor hora adicional:</span> ${!! $precio_hora_adicional !!} COP</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Valor día adicional:</span> ${!!! $precio_dia_adicional !} COP</li>
+        <li class="menu-list-item dark-blue-color"><span class="item-bold black-text"></span> El vehículo se devuelve en las mismas condiciones en las que se entregar (Full de gasolina y lavado).</li>
+      </ul>
+    </columns>
+  </row>
+
+  <!-- <row>
+    <columns small="12" large="12">
+      <h5>¿Qué sigue?</h5>
+      <menu>
+        <item></item>
+      </menu>
+    </columns>
+  </row> -->
+
+</container>
+<!-- ./Main content -->
+
+
+
+<!-- Including footer -->
+{{> footerTe4}}
+<!-- ./Including footer -->

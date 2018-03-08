@@ -1,0 +1,40 @@
+---
+subject: Cotización rápida de carro en TodosEn4
+---
+
+<!-- Including header -->
+{{> headerTe4 }}
+<!-- ./Including header -->
+
+<container>
+
+  <spacer size="20"></spacer>
+
+  <row>
+    <columns small="12">
+      <!-- Main message -->
+      <h1>Hola, {!! $name !!}</h1>
+
+      <spacer size="20"></spacer>
+
+      <p class="">
+        Con los datos que recibimos estamos verificando la disponibilidad de los vehículos que se adapten a tus necesidades para brindarte varias alternativas. Dentro de las próximas <span class="orange-text">{!! $number_of_hours_to_conta_with_you !!} horas</span> te contactaremos para ayudarte a realizar la reserva de tu alquiler.
+      </p>
+    </columns>
+</row>
+
+  <spacer size="15"></spacer>
+
+  <row>
+    <columns small="12">
+      <p class="">
+        Si tu alquiler es dentro de las próximas 24 horas, por favor comunicate con nosotros al {!! $todosen4_main_phone !!} para darle prioridad a tu servicio y confirmar un vehículo lo antes posible.
+      </p>
+    </columns>
+</row>
+
+</container>
+
+<!-- Including footer -->
+{{> footerTe4}}
+<!-- ./Including footer -->

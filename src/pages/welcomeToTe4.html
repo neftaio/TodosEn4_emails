@@ -1,0 +1,67 @@
+---
+subject: Bienvenido a TodosEn4
+---
+
+<!-- Including header -->
+{{> headerTe4 }}
+<!-- ./Including header -->
+
+<container>
+
+  <spacer size="20"></spacer>
+
+  <row>
+    <columns small="12">
+      <!-- Main message -->
+      <h1>Bienvenido, {!! $name !!}</h1>
+
+      <spacer size="20"></spacer>
+
+      <p class="">De parte del equipo de TodosEn4 estamos muy felices que pertenezcas a nuestra familia de usuarios que comparten vehículos para vivir las mejores experiencias de viaje.</p>
+      <!-- ./Main message -->
+
+      <!-- Image quote -->
+      <img src="{{root}}assets/img/email-bienvenido-todosen4-quote-580x200-compressor.jpg" alt="" class="img-quote">
+      <!-- ./Image quote -->
+
+      <spacer size="40"></spacer>
+
+      <!-- More info -->
+      <p>No olvides que puedes encontrar más información sobre nosotros en:</p>
+      <menu class="vertical">
+        <item href="{!! $link_questions_answers !!}" class="blue-text">Preguntas y respuestas frecuentes.</item>
+        <item href="{!! $link_terms_conditions !!}" class="blue-text">Términos y condiciones.</item>
+      </menu>
+      <!-- ./More info -->
+
+      <!-- <spacer size="20"></spacer> -->
+      <!-- <hr/> -->
+
+      <spacer size="40"></spacer>
+
+      <!-- Our services -->
+      <p>Si lo deseas accede ahora mismo a uno de nuestros servicios:</p>
+      <row class="collapse">
+        <columns large="6">
+          <div class="col-container">
+            <button class="expanded alert" href="https://todosen4.com/carros/bogota">Alquilar un Carro</button>
+          </div>
+        </columns>
+        <columns large="6">
+          <div class="col-container">
+            <button class="expanded secondary" href="https://todosen4.com/inscripcion-carro">Inscribir mi Carro</button>
+          </div>
+        </columns>
+      </row>
+      <spacer size="20"></spacer>
+      <!-- ./Our services -->
+
+    </columns>
+  </row>
+
+</container>
+
+
+<!-- Including footer -->
+{{> footerTe4}}
+<!-- ./Including footer -->

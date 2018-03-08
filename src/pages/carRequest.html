@@ -1,0 +1,68 @@
+---
+subject: Solicitud de carro a TodosEn4
+---
+
+<!-- Including header -->
+{{> headerTe4 }}
+<!-- ./Including header -->
+
+<container>
+
+  <spacer size="20"></spacer>
+
+  <row>
+    <columns small="12">
+      <!-- Main message -->
+      <h1>Hola, <span class="dark-blue-color">{!! $name !!}</span></h1>
+
+      <spacer size="20"></spacer>
+      <p class="justify">
+        <b class="">Nos encontramos verificando la disponibilidad del vehículo que solicitaste</b> o de otros similares para brindarte varias alternativas. Dentro de las próximas <span class="orange-text">{!! $number_of_hours_to_conta_with_you !!} horas</span> te contactaremos para ayudarte a realizar la reserva de tu alquiler.
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="10"></spacer>
+
+  <row>
+    <columns small="12">
+      <p class="justify">
+        Si tu alquiler es dentro de las próximas 24 horas, por favor comunicate con nosotros al {!! $todosen4_main_phone !!} para darle prioridad a tu servicio y confirmar un vehículo lo antes posible.
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="10"></spacer>
+
+
+  <row>
+    <columns small="12">
+      <p class="justify">
+        Quien te contactará y asistirá tu alquiler, de principio a fin, será siempre un representante de <span class="orange-text">TodosEn4</span>. Hazle todas las consultas que tengas, él está para colaborarte en lo que necesites.
+      </p>
+    </columns>
+  </row>
+
+  <spacer size="10"></spacer>
+
+  <row>
+    <columns small="12">
+      <p class="justify">
+        <b>IMPORTANTE:</b> <span class="dark-blue-color s-small">recuerda que debes tener tu perfil de usuario completo (subir las imágenes de tus documentos: cédula y licencia de conducir) para poder realizar el alquiler. También, por la seguridad de tus acompañantes y poder reaccionar más rápidamente ante cualquier emergencia, es importantes completar sus datos básicos (no es necesario que subas imagenes de los documentos de ellos). Si aún no has finalizado alguno de estos puntos, por favor ingresa a través del siguiente link:</span>
+        </p>
+      </columns>
+    </row>
+
+    <row class="collapse">
+      <columns large="12">
+        <div class="col-container">
+          <button class="expanded secondary" href="{!! $urs_to_complete_my_profile_and_passengers !!}">Completar mi perfil y los datos de mis acompañantes</button>
+        </div>
+      </columns>
+    </row>
+
+  </container>
+
+  <!-- Including footer -->
+  {{> footerTe4}}
+  <!-- ./Including footer -->

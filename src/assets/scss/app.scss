@@ -1,0 +1,63 @@
+@import 'settings';
+@import 'foundation-emails';
+
+@import 'template/template';
+
+.header {
+  background-color: $dark_blue-color;
+}
+
+table.menu td.menu-item a, table.menu th.menu-item a {
+  color: $blue_tec-color;
+}
+
+.orange {
+  background-color: $orange_tec-color;
+}
+
+.blue {
+  background-color: $blue_tec-color;
+}
+
+.blue-text {
+  color: $blue_tec-color !important;
+}
+
+.orange-text {
+  color: $orange_tec-color !important;
+}
+
+.black-text {
+  color: black !important;
+}
+
+.dark-blue-color {
+  color: $dark_blue-color !important;
+}
+
+th.menu-item.item-footer {
+  padding: 0px !important;
+  padding-bottom: 8px !important;
+}
+
+.menu-list {
+  list-style-type: none;
+  line-height: 1.8;
+  font-size: 14px;
+}
+
+.menu-list > .menu-list-item > .item-bold {
+  font-weight: bold;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.s-small {
+  font-size: 14px;
+}
+
+.justify {
+  text-align: justify;
+}

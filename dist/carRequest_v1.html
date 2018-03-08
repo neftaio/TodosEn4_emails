@@ -1,0 +1,143 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/app.css">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Solicitud de carro a TodosEn4</title>
+    <!-- <style> -->
+  </head>
+  <body>
+    <span class="preheader"></span>
+    <table class="body">
+      <tr>
+        <td class="center" align="center" valign="top">
+          <center data-parsed="">
+            
+            
+            
+            <!-- Including header -->
+            <table align="center" class="wrapper header float-center"><tr><td class="wrapper-inner">
+              <table align="center" class="container"><tbody><tr><td>
+                <table class="row collapse"><tbody><tr>
+                  <th class="small-12 large-12 columns first last"><table><tr><th>
+                    <center data-parsed="">
+                      <img src="{!! $url_image_log_800x100 !!}" class="header-logo float-center" align="center">
+                    </center>
+                  </th>
+<th class="expander"></th></tr></table></th>
+                </tr></tbody></table>
+            
+              </td></tr></tbody></table>
+            </td></tr></table>
+            <!-- ./Including header -->
+            
+            <!-- Main content -->
+            <table align="center" class="container car-request-container float-center"><tbody><tr><td>
+              <table class="spacer"><tbody><tr><td height="40px" style="font-size:40px;line-height:40px;">&#xA0;</td></tr></tbody></table> 
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+                  <p class="bold text-center car-request-title">Gracias por usar <a class="blue-text bold" href="https://todosen4.com">TodosEn4</a>, tu solicitud de vehículo ha sido enviada <span class="orange-text">EXITOSAMENTE</span>, en las próximas <span class="orange-text">{!! $numero_de_horas_para_confirmar_alquiler !!} horas</span> te estaremos contactando para confirmar tu alquiler.</p>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+              <table class="spacer"><tbody><tr><td height="20px" style="font-size:20px;line-height:20px;">&#xA0;</td></tr></tbody></table> 
+            
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+                  <h5>Datos de la solicitud:</h5>
+                  <ul class="menu-list">
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Carro:</span> {!! $descripcion_el_carro !!}</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Fecha inicial:</span> {!! $fecha_inicial_alquiler !!}</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Fecha final:</span> {!! $fecha_final_alquiler !!}</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Precio del alquiler:</span> ${!! $precio_del_alquiler !!} COP</li>
+                  </ul>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+            
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+                  <h5>Requisitos para el alquiler:</h5>
+                      <ul class="menu-list">
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">1.</span> Cédula de Ciudadanía, Extranjería o Pasaporte (cualquiera de los 3).</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">2.</span> Licencia de conducción vigente (nacional o extranjera).</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">3.</span> Tarjeta de crédito Visa, Master Cards, American Express o Diners Club (para depósito de garantía) con cupo disponible de {!! $precio_deposito!!}</li>
+                  </ul>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+            
+              <!-- <spacer size="5"></spacer> -->
+            
+              <table class="row"><tbody><tr>
+                <th class="small-12 large-12 columns first last"><table><tr><th>
+                  <h5>Condiciones del alquiler:</h5>
+                <ul class="menu-list">
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Kilomentraje máximo por día:</span> {!! $kilomentraje_diario !!} Km</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Valor hora adicional:</span> ${!! $precio_hora_adicional !!} COP</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text">Valor día adicional:</span> ${!!! $precio_dia_adicional !} COP</li>
+                    <li class="menu-list-item dark-blue-color"><span class="item-bold black-text"></span> El vehículo se devuelve en las mismas condiciones en las que se entregar (Full de gasolina y lavado).</li>
+                  </ul>
+                </th>
+<th class="expander"></th></tr></table></th>
+              </tr></tbody></table>
+            
+              <!-- <row>
+                <columns small="12" large="12">
+                  <h5>¿Qué sigue?</h5>
+                  <menu>
+                    <item></item>
+                  </menu>
+                </columns>
+              </row> -->
+            
+            </td></tr></tbody></table>
+            <!-- ./Main content -->
+            
+            
+            
+            <!-- Including footer -->
+            <!-- Including footer -->
+            <table align="center" class="wrapper header float-center"><tr><td class="wrapper-inner">
+              <table align="center" class="container"><tbody><tr><td>
+                <table class="row collapse"><tbody><tr>
+                  <th class="small-12 large-12 columns first last"><table><tr><th>
+                    <center data-parsed="">
+                      <table align="center" class="menu vertical text-center float-center"><tr><td><table><tr>
+                        <th class="menu-item white-text fs-12 item-footer float-center"><a href="mailto:{!! $main_email !!}">
+                          <small class="blue-text">Email: <span class="orange-text">{!! $main_email !!}</span></small>
+                        </a></th>
+                        <th class="menu-item white-text fs-12 item-footer float-center"><a href="tel:{!! $main_phone !!}">
+                          <small class="blue-text">Tel: (+57) {!! $main_phone !!}, {!! $secondary_phone !!}</small>
+                        </a></th>
+                        <th class="menu-item white-text fs-12 item-footer float-center"><a href="#">
+                          <small class="blue-text">{!! $address !!}</small>
+                        </a></th>
+                        <th class="menu-item white-text fs-12 item-footer float-center"><a href="#">
+                          <small class="blue-text">
+                              Todos los derechos reservados {!! $year !!}. <a class="orange-text" href="https://todosen4.com">TodosEn4.com</a>
+                          </small>
+                        </a></th>
+                      </tr></table></td></tr></table>
+                    </center>
+                  </th>
+<th class="expander"></th></tr></table></th>
+                </tr></tbody></table>
+              </td></tr></tbody></table>
+            </td></tr></table>
+            <!-- ./Including footer -->
+            <!-- ./Including footer -->
+            
+          </center>
+        </td>
+      </tr>
+    </table>
+    <!-- prevent Gmail on iOS font size manipulation -->
+   <div style="display:none; white-space:nowrap; font:15px courier; line-height:0;"> &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; </div>
+  </body>
+</html>
+
